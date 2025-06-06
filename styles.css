@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Minecraft Ten';
+    src: url('fonts/MinecraftTen.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('fonts/Minecraftia.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Minecraftia', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b6fc86;
+}
+
+header {
+    background-color: #56ca06;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-family: 'Minecraft Ten', sans-serif;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Minecraftia', sans-serif;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-family: 'Minecraft Ten', sans-serif;
+}
+
+.section-intro {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-acerca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-acerca .acerca-contenido {
+    max-width: 700px;
+}
+
+.section-acerca img {
+    border-radius: 50%;
+    margin-right: 59px;
+}
+
+.imagen-seccion {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    image-rendering: pixelated; /* clave para conservar el estilo retro */
+
+}
+
+
+.section-portafolio .galeria {
+    display: flex;
+    gap: 20px;
+}
+
+.section-portafolio .proyecto {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.section-portafolio .proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section-testimonios blockquote {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #333;
+    margin-bottom: 20px;
+}
+
+.section-testimonios blockquote footer {
+    text-align: right;
+    font-style: italic;
+}
+
+.section-contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-contacto label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-contacto input,
+.section-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section-contacto input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.section-contacto input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.imagen-seccion {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    image-rendering: pixelated;
+}
+
